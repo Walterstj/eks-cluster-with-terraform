@@ -21,3 +21,6 @@ provider "aws" {
 data "aws_availability_zones" "a_zones" {
   state = "available"
 }
+
+
+# https://medium.com/@ShadowDevop323/provision-eks-cluster-with-terraform-419a962a69ba
